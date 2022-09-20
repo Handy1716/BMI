@@ -6,30 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div id="oldal">
         <div class="bgorange">
             <div class="orangeline">
-                Írja be cm-ben számított testmagasságát (cipő nélül mérve):
+                Írja be cm-ben számított testmagasságát (cipő nélül mérve): <input type="number" id="magassagbox">
             </div>
             <div class="orangeline">
-                Írja be kg-ban számított testsúját (cipő nélkül mérve):
+                Írja be kg-ban számított testsúját (cipő nélkül mérve): <input type="number" id="sulybox">
             </div>
             <div>
-
+                <button id="gomb"><strong>Számítás</strong></button>
             </div>
         </div>
     
-        <h4>AZ ÖN BMI ÉRTÉKE:</h4>
+        <h4>AZ ÖN BMI ÉRTÉKE:</h4> <input type="text" id="eredmenybox">
         <div class="felsorolas"><div class="elsooszlop"><strong>18,5 vagy kevesebb</strong></div><div class="masodikoszlop">SOVÁNY</div></div><hr class="csik">
         <div class="felsorolas"><div class="elsooszlop"><strong>18,5-24,9</strong></div><div class="masodikoszlop">NORMÁL</div></div><hr class="csik">
         <div class="felsorolas"><div class="elsooszlop"><strong>25-29,9</strong></div><div class="masodikoszlop">TÚLSÚLY</div></div><hr class="csik">
         <div id="plus"><div class="elsooszlop1"><strong>30-34,9</strong></div><div class="masodikoszlop1">I. FOKÚ ELHÍZÁS</div></div><hr class="csik">
         <div class="felsorolas"><div class="elsooszlop"><strong>35-39,9</strong></div><div class="masodikoszlop">II. FOKÚ ELHÍZÁS</div></div><hr class="csik">
         <div class="felsorolas"><div class="elsooszlop"><strong>40 vagy több</strong></div><div class="masodikoszlop">III. FOKÚ ELHÍZÁS</div></div><hr class="csik">
-        <h4>AZ IDEÁLIS TESTÖMEGE:</h4>
-        <div id="utolŁsosorformazas"><div></div><div>Kívánatos szélsőérték</div></div>
+        <h4>AZ IDEÁLIS TESTÖMEGE: 66.5kg</h4>
+        <h4>56.7 - 76.3 kg</h4><span>Kívánatos szélsőérték</span>
 </div>
+<script src="main.js"></script>
 </body>
 </html>
