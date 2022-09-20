@@ -15,11 +15,21 @@ h4 {
 }
 .orangeline{
     
+    height: 40px;
+    padding-top: 15px;
 }
 .felsorolas{
     width: 80%;
     height: 50px;
     padding-top: 25px;
+}
+#plus{
+    margin-left: 5%;
+    color:white;
+    background-color: orange;
+    height: 50px;
+    padding-top: 25px;
+    width: 90%;
 }
 .elsooszlop{ 
     width: 45%;
@@ -32,4 +42,14 @@ h4 {
 .csik{
     width: 90%;
     margin: 0 auto;
+}
+
+.elsooszlop1{ 
+    width: 28%;
+    float: left;
+    text-align: center;
+}
+.masodikoszlop1{
+    text-align: justify;
+    margin-left: 34%;
 }
