@@ -1,6 +1,7 @@
 #oldal {
     width:  700px;
-    margin: 20px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -9,7 +10,26 @@ h4 {
 }
 .bgorange{
     background-color: orange;
+    padding: 15px;
+    color:white;
+}
+.orangeline{
+    
 }
 .felsorolas{
     width: 80%;
+    height: 50px;
+    padding-top: 25px;
+}
+.elsooszlop{ 
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+.masodikoszlop{
+    text-align: justify;
+}
+.csik{
+    width: 90%;
+    margin: 0 auto;
 }
